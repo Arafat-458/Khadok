@@ -1,0 +1,25 @@
+{
+  "name": "foodie-ecommerce-server",
+  "version": "1.0.0",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "node index.jsx",
+    "start-dev": "nodemon index.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0",
+    "mongodb-memory-server": "^11.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
